@@ -10,17 +10,16 @@
 	icon_state = "beltRobo"
 	storage_slots = 7
 	can_hold = list(
- 	/obj/item/weapon/crowbar,
- 	/obj/item/weapon/screwdriver,
- 	/obj/item/weapon/weldingtool,
- 	/obj/item/weapon/wirecutters,
- 	/obj/item/weapon/wrench,
- 	/obj/item/device/multitool,
- 	/obj/item/device/flashlight,
- 	/obj/item/stack/cable_coil,
- 	/obj/item/device/analyzer,
- 	/obj/item/device/mmi
- 	)
+ 	"/obj/item/weapon/crowbar",
+ 	"/obj/item/weapon/screwdriver",
+ 	"/obj/item/weapon/weldingtool",
+ 	"/obj/item/weapon/wirecutters",
+ 	"/obj/item/weapon/wrench",
+ 	"/obj/item/device/multitool",
+ 	"/obj/item/device/flashlight",
+ 	"/obj/item/stack/cable_coil",
+ 	"/obj/item/device/analyzer",
+ 	"/obj/item/device/mmi")
 
  /obj/item/weapon/storage/belt/robotics/full/New()
  	..()
@@ -36,7 +35,7 @@
 	icon_override = 'icons/uristmob/belt_mirror.dmi'
 	storage_slots = 1
 	can_hold = list(
-		/obj/item/device/pda
+		"/obj/item/device/pda"
 		)
 
 /obj/item/weapon/storage/belt/vanity/leather
@@ -102,7 +101,7 @@
 	item_state = "bandolier"
 	storage_slots = 6
 	can_hold = list(
-			/obj/item/ammo_casing/shotgun
+			"/obj/item/ammo_casing/shotgun"
 			)
 
 //military belt
@@ -119,5 +118,5 @@
 	max_w_class = 3
 	max_storage_space = 24
 	can_hold = list(
-		/obj/item
+		"/obj/item"
 		)
